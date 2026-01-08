@@ -112,5 +112,122 @@ header button{
     border: 1px solid #FFFFFF;
 }
 
+.hero-notos{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.hero-notos h2{
+    font-size: 48px;
+    margin-top: 48px;
+}
+.hero-notos p{
+    font-size: 16px;
+    color: #627382;
+    margin: 16px;
+    margin-bottom: 48px;
+    font-family: "Oswald", sans-serif;
+
+}
+.hero-notos .hero-content-notos{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+   
+}
+.hero-notos .hero-content-notos .hero-content-card{
+    width: 322px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding-top:69px;
+    border-radius: 8px 8px 0px 8px;
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.1);
+   
+}
+.hero-notos .hero-content-notos .hero-content-card img{
+    background-color: #F95555;
+    height: 60px;
+    width: 60px;
+    padding: 16.11px ;
+    border-radius: 50%;
+}
+.hero-notos .hero-content-notos .hero-content-card h3{
+    margin-top: 16px;
+    font-size: 24px;
+    font-style: bold;
+    color: #001931;
+    
+}
+.hero-notos .hero-content-notos .hero-content-card p{
+     font-size: 16px;
+     font-family: "Oswald", sans-serif;
+     line-height: 16px;
+     color: #627382;
+     padding: 0px 24px 69.5px 24px;
+
+}
+.hero-lern{
+    width: 1600px;
+    height: 840px;
+    margin-top: -90px;
+    background-color: #FFFFFF;
+    /* position: absolute; */
+    
+
+}
 
 
+.hero-lern-content{
+    display: flex;
+    height: 600px;
+    width: 1360px;
+    margin: 120px;
+    gap: 60px;
+    
+}
+
+.hero-lern-First img{
+    height: 600px;
+    width: 600px;
+    box-shadow: 0px 4px 16px rgba(0,0,0,0.1);
+    
+}
+.hero-lern-second{
+    margin: 150px 12px 22px 0px;
+    height: 396px;
+    width:700px;
+}
+.hero-lern-second .pra{
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    font-family: "Oswald", sans-serif;
+}
+
+.hero-lern-second h2{
+      font-size: 48px;
+      color: #001931;
+      font-style: bold;
+      margin:16px 0 16px 0;
+}
+.hero-lern-second .pra-2{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 40px;
+}
+
+.hero-lern-second p .pra-3{
+    color: #001931;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Oswald", sans-serif;
+    font-style:normal;
+}
+.hero-access{
+    background-color:#F7F6F2;
+    text-align: center;
+   
+}
