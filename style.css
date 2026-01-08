@@ -172,7 +172,7 @@ header button{
     height: 840px;
     margin-top: -90px;
     background-color: #FFFFFF;
-    /* position: absolute; */
+    position: absolute;
     
 
 }
@@ -229,5 +229,33 @@ header button{
 .hero-access{
     background-color:#F7F6F2;
     text-align: center;
-   
+    height: 384px;
+    width: 1360px;
+    margin: 794px 120px 120px 120px;
+    position: absolute;
+    
+}
+
+.hero-access h2{
+    margin-top: 80px;
+      font-size: 40px;
+      color: #001931;
+      font-style: bold;
+
+}
+.hero-access p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Oswald", sans-serif;
+    margin: 16px;
+}
+.hero-access button{
+    font-size: 16px;
+    font-style: bold;
+    padding: 12.5px 16px;
+    background-color: #469165;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 4px;
 }
