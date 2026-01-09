@@ -26,6 +26,10 @@ header ul li a{
     text-decoration: none;
     color:#000000;
 }
+header ul li a:hover{
+    background-color: #627382;
+}
+
 header button{
     font-size: 16px;
     font-style: bold;
@@ -36,6 +40,8 @@ header button{
     border-style: none;
     border-radius: 4px;
 }
+
+
 .hero-section{
     background-image:url(assets/hero-bg.png);
     background-repeat: no-repeat;
@@ -98,9 +104,10 @@ header button{
     color: #FFFFFF;
     border-style: none;
     border-radius: 4px;
-    
-    
-    
+}
+.hero-section .hero-content .hero-btn button:hover{
+     cursor: pointer;
+    background-color: #30B868;
 }
 .hero-section .hero-content .hero-btn .hero-btn-child{
     font-size: 16px;
@@ -111,7 +118,10 @@ header button{
     border-radius: 4px;
     border: 1px solid #FFFFFF;
 }
-
+.hero-section .hero-content .hero-btn .hero-btn-child:hover{
+    cursor: pointer;
+    background-color: #30B868;
+}
 .hero-notos{
     background-color: #FFFFFF;
     text-align: center;
@@ -226,6 +236,21 @@ header button{
     font-family: "Oswald", sans-serif;
     font-style:normal;
 }
+.hero-lern-second i{
+    height: 16.25px;
+    width: 16.25px;
+    background-color:#30B868;
+    border-radius: 50%;
+    color:#FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    justify-items: center;
+    margin-right: 6px;
+   
+
+
+   
+}
 .hero-access{
     background-color:#F7F6F2;
     text-align: center;
@@ -259,3 +284,45 @@ header button{
     border-style: none;
     border-radius: 4px;
 }
+
+footer{
+    margin-top:1298px;
+    background-color: #001931;
+    width: 1600px;
+    height: 328px;
+ 
+}
+
+footer .footer-main{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 850px;
+  
+}
+
+
+
+footer p{
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    
+}
+
+.footer-content, .footer-info {
+    margin: 120px 120px 100px 120px;
+}
+footer .footer-copyrightlink{
+  text-align: center;
+ 
+  font-size: 16px;
+  color: #FAFAFA;
+  line-height: 24px;
+  font-family: "Oswald", sans-serif;
+  
+}
+
+body button:hover{
+    cursor: pointer;
+    background-color: #30B868;
+}
+
